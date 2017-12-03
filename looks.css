@@ -1,0 +1,179 @@
+body {margin: 0;
+      height: 100%;
+      overflow: hidden;
+}
+#pageT {
+	position : relative;
+	top :  15% ;
+	left :  80px ;
+	font-size   : 30px     ;
+	font-weight: bold;
+
+}
+#mainC{
+	padding-left : 10%;
+	position : fixed;
+	overflow:scroll;
+	overflow-x:hidden;
+	height:100%;
+	width:100%;
+	top : 60px;
+	z-index: 1;
+	background-color : rgba(100,100,80,1)
+	
+}
+#header{
+	z-index: 2;
+	position : relative;
+	height: 60px;
+	top : 0px;
+	z-index: 1;
+	
+}
+.tCont{
+	font-family : cntu ;
+	color      : rgba(80,80,100,1);
+}
+.tGui{
+	font-family : arial ;
+	color      : rgba(255,255,255,1);
+	
+	
+}
+.sGui{
+	
+	background-color : rgba(100,100,240,1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	
+}
+.elemT{
+	position : relative;
+	font-size   : 20px     ;
+	font-weight: bold;
+	left   :  10% ;
+	top    : 2%;
+	height :  10% ;
+	background-color :rgba(0,0,0,0);
+}
+
+.elem:active {
+	background-color :rgba(0,0,0,0.15);
+	}
+
+#slide{
+	position : fixed; 
+	width : 210px; /*to be animated 210 --> 0**/
+	height : 100%;
+	z-index: 3;
+	 transition : 0.5s;
+}
+#elemsC{
+	position : relative; 
+	top : 25% ;
+	left : 0px;
+	transition : 0.5s;
+}
+#icoM{
+	position:absolute;
+	height : 40px;
+	width  : 40px;
+	top : 8px;
+	left : 190px;
+	border-radius: 100%;
+	z-index:5;
+	 transition : 0.5s;
+}
+#icoM:active{
+	height : 50px;
+	width  : 50px;
+   
+}
+@font-face {
+	font-family: "cntu";
+	src : url("res/fonts/Futura Std Medium.otf");
+}
+.task{
+	position:relative;
+	background-color :rgba(245,245,250,1);
+	width : 85% ;
+	height : 20%;
+	border-radius : 5px 5px 5px 5px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3), 0px 2px 3px rgba(0,0,0,0.4) ;
+}
+.task>pre{
+	position : relative;
+	top  : 15%;
+	left : 10%;
+	font-size   : 110%;
+}
+.task>p{
+
+	position : relative;
+	top  : 15%;
+	left : 50%;
+	font-size   : 100%;
+}
+.task>img{
+	position : absolute;
+	top  : 5%;
+	left : 88% ;
+	height :  35%;
+	transition : 0.5s;
+	opacity: 0.8;
+}
+#outer{
+	position : absolute;
+	left : -1000px ;
+}
+#overlay{
+	z-index:6;
+}
+#addBt{
+	position:absolute;
+	height : 60px;
+	width  : 60px;
+	top : 80%;
+	left : 80%;
+	border-radius: 100%;
+	 transition : 0.5s;
+	 z-index:6;
+}
+#matt{
+	position:absolute;
+	top : 0%;
+	height : 110%;
+	width  : 110%;
+	background-color :rgba(0,0,0,0.8);
+	transition : 0.5s;
+	z-index:10;
+}
+#prmpt{
+	background-color :rgba(240,240,250,1);
+	position:absolute;
+	height : 40%;
+	width  : 80%;
+	top : 25%;
+	left : 10%;
+	border-radius: 4px;
+	 transition : 0.5s;
+	 z-index:11;
+}
+#prmpt>div{
+	text-align : center ;
+	background-color :rgba(200,200,210,0.8);
+	position:relative;
+	height : 40%;
+	width  : 100%;
+	top : 0;
+	left : 0;
+	border-radius: 4px 4px 0px 0px;
+
+}
+input[type=text], select {
+	width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}

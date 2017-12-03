@@ -1,0 +1,6 @@
+
+
+var TaskTab = [{name:"Check in", time:{start:"13:00", end:"14:00"}},{name:"Welcome Speech",time:{start:"14:00", end:"14:05"}},{name:"Presentation of GDG Sfax", time:{start:"14:05", end:"14:10"}},{name:"First Speech", time:{start:"14:10", end:"15:40"}},{name:"Coffee Break", time:{start:"15:40", end:"16:00"}},{name:"Second Speech", time:{start:"16:00", end:"17:00"}},{name:"Break", time:{start:"17:00", end:"17:15"}}, {name:"Third Speech", time:{start:"17:15", end:"18:45"}},{name:"Announcing the competition theme and start of the challenge", time:{start:"18:45", end:"20:00"}},{name:"Coffee Break", time:{start:"03:00", end:"03:15"}}, {name:"Breakfast", time:{start:"08:30", end:"08:45"}}, {name:"End of the challenge", time:{start:"11:45", end:"12:00"}}, {name:"Lunch", time:{start:"12:00", end:"13:00"}}, {name:"Selecting the applications to be presentated", time:{start:"13:00", end:"14:00"}}, {name:"Presenting the applications", time:{start:"14:00", end:"15:00"}}, {name:"Announcing results", time:{start:"15:00", end:"16:00"}}, {name:"Closing ceremony", time:{start:"16:00", end:"16:30"}}];
+
+var NavMenu = [{name:"Browser",ref:"#"},{name:"Manager",ref:"#"},{name:"Community",ref:"#"}];
+//sabstitue de base de donner

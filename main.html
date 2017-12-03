@@ -1,0 +1,40 @@
+<html>
+ <head>
+  <script src="db.js" ></script>
+  <script src="mec.js" ></script>
+  
+  <link rel = "stylesheet" type="text/css"  href="looks.css">
+  
+ </head>
+ <body onload="StartMain()">
+ <div id="outer"><img src="res\ico\edit.png" /></div>
+  <div id="mainC">
+   
+ 
+   
+  </div>
+  <div id="slide" class ="sGui">
+   <div></div>
+   <div id="elemsC">
+
+   </div>
+  </div>
+  <div id="header" class ="sGui">
+   <div id="ico1" ></div>
+   <div id="pageT" class ="tGui">Events</div>
+  </div>
+  
+  <div id="icoM" class ="sGui" onclick="slide(this);withNav('icoM',190,0);withNav('elemsC',0,-190);"> <!--&#9776--> </div>
+  <div id="overlay">
+  <img id="addBt" src="res\ico\addi.png" onclick="alert('Request Fill Test!')">
+  </div>
+  <!-- custom prompt 
+  <div id="matt"></div>
+  <div id="prmpt"> 
+  <div class="tCont">message</div>
+  <form> 
+    <input type="text"/>
+  </form>  
+  </div> -->
+ </body>
+</html>
